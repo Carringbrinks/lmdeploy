@@ -1,0 +1,266 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "paragraph",
+                        "text": "(3)调取李xx的银行账户相关情况。",
+                        "vertex": {
+                            "x1": 327,
+                            "y1": 191,
+                            "x2": 988,
+                            "y2": 191,
+                            "x3": 988,
+                            "y3": 242,
+                            "x4": 327,
+                            "y4": 242
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "(4)xxxxxx(其他需要使用的措施)",
+                        "vertex": {
+                            "x1": 327,
+                            "y1": 259,
+                            "x2": 991,
+                            "y2": 259,
+                            "x3": 991,
+                            "y3": 312,
+                            "x4": 327,
+                            "y4": 312
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "title",
+                        "text": "(三)核查中的注意事项",
+                        "vertex": {
+                            "x1": 327,
+                            "y1": 334,
+                            "x2": 781,
+                            "y2": 334,
+                            "x3": 781,
+                            "y3": 383,
+                            "x4": 327,
+                            "y4": 383
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "初步核实工作必须严格按照《监督执纪工作规则》和《监督执法工作规定》等规定的程序和要求执行，初步核实方案按程序经审批后方可实施。初步核实结束后，及时制作初步核实情况报告，根据不同情形提出具体处置建议，层报领导审批。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 405,
+                            "x2": 1360,
+                            "y2": 405,
+                            "x3": 1360,
+                            "y3": 672,
+                            "x4": 222,
+                            "y4": 672
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "paragraph",
+                        "text": "初步核实期间严格执行审批制度，落实办案安全工作责任，确保办案安全;出现未预见性问题及时请示汇报，确保初步核实程序合法合规。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 691,
+                            "x2": 1377,
+                            "y2": 691,
+                            "x3": 1377,
+                            "y3": 890,
+                            "x4": 222,
+                            "y4": 890
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "核查人员应当严格遵守保密纪律、廉洁自律规定，如出现违规违纪行为，将严肃查处并追究有关责任人的责任。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 908,
+                            "x2": 1361,
+                            "y2": 908,
+                            "x3": 1361,
+                            "y3": 1033,
+                            "x4": 222,
+                            "y4": 1033
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "paragraph",
+                        "text": "以上方案当否，请领导审批。",
+                        "vertex": {
+                            "x1": 309,
+                            "y1": 1053,
+                            "x2": 841,
+                            "y2": 1053,
+                            "x3": 841,
+                            "y3": 1105,
+                            "x4": 309,
+                            "y4": 1105
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 7,
+                        "type": "title",
+                        "text": "李xx问题线索核查组",
+                        "vertex": {
+                            "x1": 776,
+                            "y1": 1199,
+                            "x2": 1162,
+                            "y2": 1199,
+                            "x3": 1162,
+                            "y3": 1246,
+                            "x4": 776,
+                            "y4": 1246
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 8,
+                        "type": "paragraph",
+                        "text": "20xx年x月x日",
+                        "vertex": {
+                            "x1": 817,
+                            "y1": 1272,
+                            "x2": 1073,
+                            "y2": 1272,
+                            "x3": 1073,
+                            "y3": 1318,
+                            "x4": 817,
+                            "y4": 1318
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 9,
+                        "type": "paragraph",
+                        "text": "核查组(全体)成员签名:俞xx蒋xx朱xx",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 1414,
+                            "x2": 1080,
+                            "y2": 1414,
+                            "x3": 1080,
+                            "y3": 1463,
+                            "x4": 222,
+                            "y4": 1463
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 10,
+                        "type": "title",
+                        "text": "张xx",
+                        "vertex": {
+                            "x1": 734,
+                            "y1": 1487,
+                            "x2": 823,
+                            "y2": 1487,
+                            "x3": 823,
+                            "y3": 1534,
+                            "x4": 734,
+                            "y4": 1534
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 11,
+                        "type": "footer",
+                        "text": "$-$ 25 $-$",
+                        "vertex": {
+                            "x1": 750,
+                            "y1": 2083,
+                            "x2": 832,
+                            "y2": 2083,
+                            "x3": 832,
+                            "y3": 2109,
+                            "x4": 750,
+                            "y4": 2109
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

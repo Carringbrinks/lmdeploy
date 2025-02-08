@@ -1,0 +1,342 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "paragraph",
+                        "text": "单位报销;3.在老家xx镇xx村违规建造农民房。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 189,
+                            "x2": 1064,
+                            "y2": 189,
+                            "x3": 1064,
+                            "y3": 242,
+                            "x4": 222,
+                            "y4": 242
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "title",
+                        "text": "二、分析意见",
+                        "vertex": {
+                            "x1": 304,
+                            "y1": 264,
+                            "x2": 565,
+                            "y2": 264,
+                            "x3": 565,
+                            "y3": 311,
+                            "x4": 304,
+                            "y4": 311
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "paragraph",
+                        "text": "从信访举报的材料来看，李xx长期负责单位人事工作，该局下属单位较多，李xx极可能存在人事管理过程中违规收受下属所送礼品、礼卡等财物的问题，不排除其有利用职务便利在单位报销个人旅游费用的情况，李xx在xx局担任领导职务，不排除其利用职务上的影响，在农村违规建房，其上述行为可能涉嫌违反中央八项规定精神、违犯国家法律法规，根据《中国共产党纪律处分条例》第二十七条、第八十八条之规定，具有初步核实的必要性。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 331,
+                            "x2": 1363,
+                            "y2": 331,
+                            "x3": 1363,
+                            "y3": 890,
+                            "x4": 222,
+                            "y4": 890
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "title",
+                        "text": "三、工作方案",
+                        "vertex": {
+                            "x1": 304,
+                            "y1": 909,
+                            "x2": 565,
+                            "y2": 909,
+                            "x3": 565,
+                            "y3": 958,
+                            "x4": 304,
+                            "y4": 958
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "title",
+                        "text": "(一)核查组人员组成",
+                        "vertex": {
+                            "x1": 327,
+                            "y1": 982,
+                            "x2": 736,
+                            "y2": 982,
+                            "x3": 736,
+                            "y3": 1031,
+                            "x4": 327,
+                            "y4": 1031
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "本问题线索拟初步核实，并以第x纪检监察室主任俞xx为组长，副主任蒋xx为主办人，工作人员朱xx、张xx为协办人成立核查组，安全员朱xx。",
+                        "vertex": {
+                            "x1": 221,
+                            "y1": 1052,
+                            "x2": 1361,
+                            "y2": 1052,
+                            "x3": 1361,
+                            "y3": 1250,
+                            "x4": 221,
+                            "y4": 1250
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "title",
+                        "text": "(二)核查的内容和措施",
+                        "vertex": {
+                            "x1": 299,
+                            "y1": 1269,
+                            "x2": 753,
+                            "y2": 1269,
+                            "x3": 753,
+                            "y3": 1318,
+                            "x4": 299,
+                            "y4": 1318
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 7,
+                        "type": "title",
+                        "text": "1.核查的内容",
+                        "vertex": {
+                            "x1": 318,
+                            "y1": 1339,
+                            "x2": 565,
+                            "y2": 1339,
+                            "x3": 565,
+                            "y3": 1389,
+                            "x4": 318,
+                            "y4": 1389
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 8,
+                        "type": "paragraph",
+                        "text": "(1)向反映人刘xx具体了解反映的内容。",
+                        "vertex": {
+                            "x1": 326,
+                            "y1": 1409,
+                            "x2": 1075,
+                            "y2": 1409,
+                            "x3": 1075,
+                            "y3": 1468,
+                            "x4": 326,
+                            "y4": 1468
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 9,
+                        "type": "paragraph",
+                        "text": "(2)找李xx及相关人员谈话，核实收受礼品礼卡和违规报销旅游费用等问题。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 1482,
+                            "x2": 1362,
+                            "y2": 1482,
+                            "x3": 1362,
+                            "y3": 1609,
+                            "x4": 222,
+                            "y4": 1609
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 10,
+                        "type": "paragraph",
+                        "text": "(3)向xx镇政府了解李xx家庭的农建房情况。",
+                        "vertex": {
+                            "x1": 326,
+                            "y1": 1627,
+                            "x2": 1159,
+                            "y2": 1627,
+                            "x3": 1159,
+                            "y3": 1681,
+                            "x4": 326,
+                            "y4": 1681
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 11,
+                        "type": "paragraph",
+                        "text": "(4)xxxxxx(其他需要核查的内容)。",
+                        "vertex": {
+                            "x1": 326,
+                            "y1": 1699,
+                            "x2": 1033,
+                            "y2": 1699,
+                            "x3": 1033,
+                            "y3": 1752,
+                            "x4": 326,
+                            "y4": 1752
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 12,
+                        "type": "title",
+                        "text": "2.核查的措施(外查方案)",
+                        "vertex": {
+                            "x1": 304,
+                            "y1": 1774,
+                            "x2": 790,
+                            "y2": 1774,
+                            "x3": 790,
+                            "y3": 1821,
+                            "x4": 304,
+                            "y4": 1821
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 13,
+                        "type": "paragraph",
+                        "text": "(1)向区委组织部调取李xx的主体身份材料和个人有关事项报告填报表。",
+                        "vertex": {
+                            "x1": 222,
+                            "y1": 1844,
+                            "x2": 1361,
+                            "y2": 1844,
+                            "x3": 1361,
+                            "y3": 1968,
+                            "x4": 222,
+                            "y4": 1968
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 14,
+                        "type": "paragraph",
+                        "text": "(2)向区公安分局调取李xx的出行记录和住宿记录。",
+                        "vertex": {
+                            "x1": 327,
+                            "y1": 1988,
+                            "x2": 1288,
+                            "y2": 1988,
+                            "x3": 1288,
+                            "y3": 2039,
+                            "x4": 327,
+                            "y4": 2039
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 15,
+                        "type": "footer",
+                        "text": "-24-",
+                        "vertex": {
+                            "x1": 750,
+                            "y1": 2085,
+                            "x2": 832,
+                            "y2": 2085,
+                            "x3": 832,
+                            "y3": 2111,
+                            "x4": 750,
+                            "y4": 2111
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

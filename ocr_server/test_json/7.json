@@ -1,0 +1,95 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td colspan=\"3\">中共杭州市萧山区纪委 杭州市萧山区监委</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">审查调查卷 (说明:纪委立案用审查,监委立案用调查,双立案用审查调查)</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">萧山区纪委区监委审查调查杭州市萧山区xx局党 委委员、副局长李xx违纪违法问题的立案手续、证据材 料、审查调查报告等 (说明:纪委立案用“审查、违纪”,监委立案用“调查、违法”,双立案 用“审查调查、违纪违法”)</td>\n    </tr>\n    <tr>\n        <td>自 年 月至 年 月 (说明:时间的填写按照问题线索收到的 时间作为开始,案件移送审理时间作为结 束)</td>\n        <td>保管期限</td>\n        <td>永久</td>\n    </tr>\n    <tr>\n        <td>共卷,第卷;共 件页</td>\n        <td>归档号</td>\n        <td></td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 217,
+                            "y1": 250,
+                            "x2": 1403,
+                            "y2": 250,
+                            "x3": 1403,
+                            "y3": 1779,
+                            "x4": 217,
+                            "y4": 1779
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td>全宗号</td>\n        <td>分类号</td>\n        <td>案卷号</td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 912,
+                            "y1": 1838,
+                            "x2": 1368,
+                            "y2": 1838,
+                            "x3": 1368,
+                            "y3": 2015,
+                            "x4": 912,
+                            "y4": 2015
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "footer",
+                        "text": "$-6-$",
+                        "vertex": {
+                            "x1": 757,
+                            "y1": 2083,
+                            "x2": 825,
+                            "y2": 2083,
+                            "x3": 825,
+                            "y3": 2109,
+                            "x4": 757,
+                            "y4": 2109
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

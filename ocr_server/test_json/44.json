@@ -1,0 +1,35 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content":{"elements":[{"index":0,"type":"title","text":"中共萧山区纪委请示事项委内审签单","vertex":{"x1":320,"y1":180,"x2":1265,"y2":180,"x3":1265,"y3":247,"x4":320,"y4":247},"level":0,"group_type":"","group_id":-1,"elements":[]},{"index":1,"type":"paragraph","text":"密级:非密编号:第X纪检监察室(20XX)第XX号缓急:平件","vertex":{"x1":164,"y1":293,"x2":1344,"y2":293,"x3":1344,"y3":340,"x4":164,"y4":340},"level":0,"group_type":"","group_id":-1,"elements":[]},{"index":2,"type":"table","text":"<table>\n    <tr>\n        <td>标 题</td>\n        <td colspan=\"2\">关于对杭州市萧山区XX局党委委员、副局长李XX同志进行谈话的请 示及谈话方案</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">区委常委、纪委书记、监委主任意见: 同意。 (签名) $20\\times X-X X-X X$</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管领导意见:</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">拟同意,请领导审批。</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管副书记(签名) $20\\times$ $\\times$ $-$ $\\times$ $-$ $\\times$</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">拟同意,请领导审批。</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管常委(签名) $20\\times X-X X-X X$</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">主办部门意见:</td>\n        <td>相关部门意见:</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">拟同意,请领导审批。</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">室主任(签名) $20\\times X-X X-X X$</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">呈批事由:</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">根据工作需要,拟对杭州市萧山区XX局党委委员、</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">副局长李XX进行谈话,并制定相应谈话方案,开具谈话</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">通知书一份,请领导审批。 附:《李XX谈话方案》</td>\n        <td></td>\n    </tr>\n</table>\n","vertex":{"x1":147,"y1":360,"x2":1424,"y2":360,"x3":1424,"y3":1962,"x4":147,"y4":1962},"level":0,"group_type":"","group_id":-1,"elements":[]},{"index":3,"type":"paragraph","text":"主办部门:第X纪检监察室经办人:XXX核稿人:","vertex":{"x1":164,"y1":1976,"x2":1340,"y2":1976,"x3":1340,"y3":2024,"x4":164,"y4":2024},"level":0,"group_type":"","group_id":-1,"elements":[]},{"index":4,"type":"footer","text":"$-43-$","vertex":{"x1":750,"y1":2083,"x2":832,"y2":2083,"x3":832,"y3":2109,"x4":750,"y4":2109},"level":0,"group_type":"","group_id":-1,"elements":[]}]},
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

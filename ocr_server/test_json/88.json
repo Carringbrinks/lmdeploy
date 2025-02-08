@@ -1,0 +1,285 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "title",
+                        "text": "杭州市萧山区监察委员会",
+                        "vertex": {
+                            "x1": 514,
+                            "y1": 430,
+                            "x2": 1050,
+                            "y2": 430,
+                            "x3": 1050,
+                            "y3": 486,
+                            "x4": 514,
+                            "y4": 486
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "title",
+                        "text": "立案通知书",
+                        "vertex": {
+                            "x1": 537,
+                            "y1": 521,
+                            "x2": 1026,
+                            "y2": 521,
+                            "x3": 1026,
+                            "y3": 593,
+                            "x4": 537,
+                            "y4": 593
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "paragraph",
+                        "text": "萧山区xx局:",
+                        "vertex": {
+                            "x1": 196,
+                            "y1": 800,
+                            "x2": 465,
+                            "y2": 800,
+                            "x3": 465,
+                            "y3": 856,
+                            "x4": 196,
+                            "y4": 856
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "萧监立通(20xx)x号",
+                        "vertex": {
+                            "x1": 908,
+                            "y1": 722,
+                            "x2": 1366,
+                            "y2": 722,
+                            "x3": 1366,
+                            "y3": 780,
+                            "x4": 908,
+                            "y4": 780
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "paragraph",
+                        "text": "根据《中华人民共和国监察法》的有关规定，本委决定对李xx的违法问题立案调查。",
+                        "vertex": {
+                            "x1": 196,
+                            "y1": 877,
+                            "x2": 1366,
+                            "y2": 877,
+                            "x3": 1366,
+                            "y3": 1011,
+                            "x4": 196,
+                            "y4": 1011
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "特此通知。",
+                        "vertex": {
+                            "x1": 286,
+                            "y1": 1033,
+                            "x2": 491,
+                            "y2": 1033,
+                            "x3": 491,
+                            "y3": 1088,
+                            "x4": 286,
+                            "y4": 1088
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "paragraph",
+                        "text": "20xx年x月x日",
+                        "vertex": {
+                            "x1": 942,
+                            "y1": 1267,
+                            "x2": 1258,
+                            "y2": 1267,
+                            "x3": 1258,
+                            "y3": 1320,
+                            "x4": 942,
+                            "y4": 1320
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 7,
+                        "type": "paragraph",
+                        "text": "(委印)",
+                        "vertex": {
+                            "x1": 1012,
+                            "y1": 1344,
+                            "x2": 1158,
+                            "y2": 1344,
+                            "x3": 1158,
+                            "y3": 1398,
+                            "x4": 1012,
+                            "y4": 1398
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 8,
+                        "type": "paragraph",
+                        "text": "本通知已于年月日收到。",
+                        "vertex": {
+                            "x1": 282,
+                            "y1": 1573,
+                            "x2": 900,
+                            "y2": 1573,
+                            "x3": 900,
+                            "y3": 1628,
+                            "x4": 282,
+                            "y4": 1628
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 9,
+                        "type": "paragraph",
+                        "text": "收到人或单位:",
+                        "vertex": {
+                            "x1": 838,
+                            "y1": 1652,
+                            "x2": 1118,
+                            "y2": 1652,
+                            "x3": 1118,
+                            "y3": 1705,
+                            "x4": 838,
+                            "y4": 1705
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 10,
+                        "type": "paragraph",
+                        "text": "(说明:由单位主要负责人签收，盖党委章，原件送达单位后，将复印件带回留存案卷，并按复印件要求作相应说明)",
+                        "vertex": {
+                            "x1": 196,
+                            "y1": 1729,
+                            "x2": 1366,
+                            "y2": 1729,
+                            "x3": 1366,
+                            "y3": 1862,
+                            "x4": 196,
+                            "y4": 1862
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 11,
+                        "type": "paragraph",
+                        "text": "第三联送达被调查人所在单位等相关组织",
+                        "vertex": {
+                            "x1": 441,
+                            "y1": 1891,
+                            "x2": 1139,
+                            "y2": 1891,
+                            "x3": 1139,
+                            "y3": 1943,
+                            "x4": 441,
+                            "y4": 1943
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 12,
+                        "type": "footer",
+                        "text": "-87-",
+                        "vertex": {
+                            "x1": 753,
+                            "y1": 2039,
+                            "x2": 832,
+                            "y2": 2039,
+                            "x3": 832,
+                            "y3": 2062,
+                            "x4": 753,
+                            "y4": 2062
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

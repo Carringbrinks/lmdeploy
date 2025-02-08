@@ -1,0 +1,247 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "title",
+                        "text": "调取书证手续",
+                        "vertex": {
+                            "x1": 596,
+                            "y1": 196,
+                            "x2": 986,
+                            "y2": 196,
+                            "x3": 986,
+                            "y3": 266,
+                            "x4": 596,
+                            "y4": 266
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "title",
+                        "text": "(非主要证据，可使用本委介绍信)",
+                        "vertex": {
+                            "x1": 467,
+                            "y1": 299,
+                            "x2": 1115,
+                            "y2": 299,
+                            "x3": 1115,
+                            "y3": 350,
+                            "x4": 467,
+                            "y4": 350
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "paragraph",
+                        "text": "书证",
+                        "vertex": {
+                            "x1": 727,
+                            "y1": 458,
+                            "x2": 865,
+                            "y2": 458,
+                            "x3": 865,
+                            "y3": 514,
+                            "x4": 727,
+                            "y4": 514
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "证实李XX同志违纪违法问题的相关书证，如:",
+                        "vertex": {
+                            "x1": 236,
+                            "y1": 629,
+                            "x2": 1109,
+                            "y2": 629,
+                            "x3": 1109,
+                            "y3": 680,
+                            "x4": 236,
+                            "y4": 680
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "paragraph",
+                        "text": "1.李XX收受他人佳能相机的照片;",
+                        "vertex": {
+                            "x1": 234,
+                            "y1": 713,
+                            "x2": 885,
+                            "y2": 713,
+                            "x3": 885,
+                            "y3": 763,
+                            "x4": 234,
+                            "y4": 763
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "2.李XX赴青岛旅游个人支付费用的支付宝信息;",
+                        "vertex": {
+                            "x1": 234,
+                            "y1": 796,
+                            "x2": 1152,
+                            "y2": 796,
+                            "x3": 1152,
+                            "y3": 846,
+                            "x4": 234,
+                            "y4": 846
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "paragraph",
+                        "text": "3.李XX伪造的会务费发票复印件;",
+                        "vertex": {
+                            "x1": 234,
+                            "y1": 879,
+                            "x2": 896,
+                            "y2": 879,
+                            "x3": 896,
+                            "y3": 928,
+                            "x4": 234,
+                            "y4": 928
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 7,
+                        "type": "paragraph",
+                        "text": "4.伪造会务费发票入账凭证复印件;",
+                        "vertex": {
+                            "x1": 233,
+                            "y1": 958,
+                            "x2": 896,
+                            "y2": 958,
+                            "x3": 896,
+                            "y3": 1014,
+                            "x4": 233,
+                            "y4": 1014
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 8,
+                        "type": "paragraph",
+                        "text": "5.......",
+                        "vertex": {
+                            "x1": 233,
+                            "y1": 1039,
+                            "x2": 368,
+                            "y2": 1039,
+                            "x3": 368,
+                            "y3": 1091,
+                            "x4": 233,
+                            "y4": 1091
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 9,
+                        "type": "paragraph",
+                        "text": "(具体内容略，说明:调取证据及作出相应说明等办案要求，参照中纪委审理室《监察机关在审理职务犯罪案件时需要注意的具体问题》中的相关内容执行)",
+                        "vertex": {
+                            "x1": 236,
+                            "y1": 1278,
+                            "x2": 1347,
+                            "y2": 1278,
+                            "x3": 1347,
+                            "y3": 1456,
+                            "x4": 236,
+                            "y4": 1456
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 10,
+                        "type": "footer",
+                        "text": "-123-",
+                        "vertex": {
+                            "x1": 745,
+                            "y1": 2039,
+                            "x2": 839,
+                            "y2": 2039,
+                            "x3": 839,
+                            "y3": 2064,
+                            "x4": 745,
+                            "y4": 2064
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

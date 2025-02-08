@@ -1,0 +1,171 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "title",
+                        "text": "中共萧山区纪委请示事项委内审签单",
+                        "vertex": {
+                            "x1": 322,
+                            "y1": 196,
+                            "x2": 1262,
+                            "y2": 196,
+                            "x3": 1262,
+                            "y3": 257,
+                            "x4": 322,
+                            "y4": 257
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "密级:非密编号:第X纪检监察室(20XX)第XX号缓急:平件",
+                        "vertex": {
+                            "x1": 179,
+                            "y1": 305,
+                            "x2": 1346,
+                            "y2": 305,
+                            "x3": 1346,
+                            "y3": 354,
+                            "x4": 179,
+                            "y4": 354
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td>标 题</td>\n        <td colspan=\"2\">关于对杭州市萧山区XX局党委委员、副局长李XX同志问题线索中相 关财物进行鉴定的请示</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管领导意见: 同意。 分管常委(签名) $20\\times X-X X-X X$</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">主办部门意见: 拟同意,请领导审批。 室主任(签名) $20\\times X-X X-X X$ 呈批事由: 因工作需要,呈请对李XX案中涉案的佳能牌 EOS850D相机委托萧山区价格认证中心进行价格鉴 定,并开具委托鉴定书和鉴定意见告知书,请领导 审批。</td>\n        <td>相关部门意见:</td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 161,
+                            "y1": 369,
+                            "x2": 1440,
+                            "y2": 369,
+                            "x3": 1440,
+                            "y3": 1959,
+                            "x4": 161,
+                            "y4": 1959
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "主办部门:第X纪检监察室",
+                        "vertex": {
+                            "x1": 179,
+                            "y1": 1977,
+                            "x2": 628,
+                            "y2": 1977,
+                            "x3": 628,
+                            "y3": 2022,
+                            "x4": 179,
+                            "y4": 2022
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "paragraph",
+                        "text": "经办人:XXX",
+                        "vertex": {
+                            "x1": 738,
+                            "y1": 1978,
+                            "x2": 1019,
+                            "y2": 1978,
+                            "x3": 1019,
+                            "y3": 2019,
+                            "x4": 738,
+                            "y4": 2019
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "核稿人:",
+                        "vertex": {
+                            "x1": 1093,
+                            "y1": 1978,
+                            "x2": 1342,
+                            "y2": 1978,
+                            "x3": 1342,
+                            "y3": 2019,
+                            "x4": 1093,
+                            "y4": 2019
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "footer",
+                        "text": "$-97-$",
+                        "vertex": {
+                            "x1": 750,
+                            "y1": 2041,
+                            "x2": 830,
+                            "y2": 2041,
+                            "x3": 830,
+                            "y3": 2062,
+                            "x4": 750,
+                            "y4": 2062
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

@@ -1,0 +1,171 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "title",
+                        "text": "中共杭州市萧山区纪律检查委员会",
+                        "vertex": {
+                            "x1": 432,
+                            "y1": 252,
+                            "x2": 1155,
+                            "y2": 252,
+                            "x3": 1155,
+                            "y3": 308,
+                            "x4": 432,
+                            "y4": 308
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "title",
+                        "text": "暂予扣留、封存涉案财物登记表",
+                        "vertex": {
+                            "x1": 304,
+                            "y1": 343,
+                            "x2": 1281,
+                            "y2": 343,
+                            "x3": 1281,
+                            "y3": 416,
+                            "x4": 304,
+                            "y4": 416
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "paragraph",
+                        "text": "第1页",
+                        "vertex": {
+                            "x1": 269,
+                            "y1": 463,
+                            "x2": 379,
+                            "y2": 463,
+                            "x3": 379,
+                            "y3": 513,
+                            "x4": 269,
+                            "y4": 513
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "总1页",
+                        "vertex": {
+                            "x1": 1192,
+                            "y1": 463,
+                            "x2": 1300,
+                            "y2": 463,
+                            "x3": 1300,
+                            "y3": 510,
+                            "x4": 1192,
+                            "y4": 510
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td>编号</td>\n        <td>财物名称</td>\n        <td>数量</td>\n        <td>规格</td>\n        <td>单 位</td>\n        <td>特征</td>\n        <td>备注</td>\n    </tr>\n    <tr>\n        <td>1</td>\n        <td>违纪违法款</td>\n        <td>XXX XX</td>\n        <td>人民币</td>\n        <td>元</td>\n        <td></td>\n        <td>(金额大写)</td>\n    </tr>\n    <tr>\n        <td>2</td>\n        <td>佳能相机</td>\n        <td>1</td>\n        <td>EOS850D</td>\n        <td>台</td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"7\">被暂扣、封存财物持有人:李xx 见证人:周XX 执纪人员:蒋XX 朱XX 20XX年X月X日</td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 166,
+                            "y1": 516,
+                            "x2": 1405,
+                            "y2": 516,
+                            "x3": 1405,
+                            "y3": 1889,
+                            "x4": 166,
+                            "y4": 1889
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "paragraph",
+                        "text": "本清单一式四份，一份统一保存，一份附卷，一份交被暂扣、封存财物持有人，一份交保管工作人员。",
+                        "vertex": {
+                            "x1": 184,
+                            "y1": 1889,
+                            "x2": 1397,
+                            "y2": 1889,
+                            "x3": 1397,
+                            "y3": 1968,
+                            "x4": 184,
+                            "y4": 1968
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 6,
+                        "type": "footer",
+                        "text": "$-95-$",
+                        "vertex": {
+                            "x1": 753,
+                            "y1": 2041,
+                            "x2": 830,
+                            "y2": 2041,
+                            "x3": 830,
+                            "y3": 2062,
+                            "x4": 753,
+                            "y4": 2062
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

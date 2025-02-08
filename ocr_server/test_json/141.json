@@ -1,0 +1,76 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td colspan=\"11\">区纪委区监委本级纪检监察工作审批权限一览表</td>\n    </tr>\n    <tr>\n        <td rowspan=\"2\">序 号</td>\n        <td rowspan=\"2\">事 项</td>\n        <td rowspan=\"2\">审批 事项</td>\n        <td rowspan=\"2\">监督 审查 调查 对象</td>\n        <td colspan=\"4\">区纪委监委</td>\n        <td>区委</td>\n        <td rowspan=\"2\">市纪委 监委</td>\n        <td rowspan=\"2\">备注</td>\n    </tr>\n    <tr>\n        <td>承办 部门 主要 负责 人</td>\n        <td>分管 常委 (委 员)</td>\n        <td>分管 副书 记(副 主任)</td>\n        <td>主要 负责 人</td>\n        <td>主要负 责人</td>\n    </tr>\n    <tr>\n        <td rowspan=\"2\">1</td>\n        <td rowspan=\"2\">检 举 控 告 处 理</td>\n        <td>转问 题线 索</td>\n        <td>所有 人员</td>\n        <td>√</td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td></td>\n    </tr>\n    <tr>\n        <td>延期 办结</td>\n        <td>所有 人员</td>\n        <td>√</td>\n        <td>√ (第 一次 延 期)</td>\n        <td>√(第 二次 延期)</td>\n        <td></td>\n        <td></td>\n        <td></td>\n        <td>涉及区管干部 的信访延期办 结审批上提一 级</td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 91,
+                            "y1": 137,
+                            "x2": 1491,
+                            "y2": 137,
+                            "x3": 1491,
+                            "y3": 1997,
+                            "x4": 91,
+                            "y4": 1997
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "footer",
+                        "text": "-140-",
+                        "vertex": {
+                            "x1": 745,
+                            "y1": 2039,
+                            "x2": 839,
+                            "y2": 2039,
+                            "x3": 839,
+                            "y3": 2064,
+                            "x4": 745,
+                            "y4": 2064
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

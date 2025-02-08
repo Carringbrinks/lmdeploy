@@ -1,0 +1,475 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "figure",
+                        "text": "![](196,238,1396,1917)",
+                        "vertex": {
+                            "x1": 196,
+                            "y1": 238,
+                            "x2": 1396,
+                            "y2": 238,
+                            "x3": 1396,
+                            "y3": 1917,
+                            "x4": 196,
+                            "y4": 1917
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": [
+                            {
+                                "index": 0,
+                                "type": "figure_text",
+                                "text": "中共杭州市萧山区纪律检查委员会",
+                                "vertex": {
+                                    "x1": 434,
+                                    "y1": 299,
+                                    "x2": 1160,
+                                    "y2": 299,
+                                    "x3": 1160,
+                                    "y3": 367,
+                                    "x4": 434,
+                                    "y4": 367
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": [{
+                                    "index": 0,
+                                    "type": "figure_text",
+                                    "text": "中共杭州市萧山区纪律检查委员会",
+                                    "vertex": {
+                                        "x1": 434,
+                                        "y1": 299,
+                                        "x2": 1160,
+                                        "y2": 299,
+                                        "x3": 1160,
+                                        "y3": 367,
+                                        "x4": 434,
+                                        "y4": 367
+                                    },
+                                    "level": 1,
+                                    "group_type": "",
+                                    "group_id": -1,
+                                    "elements": []
+                                }]
+                            },
+                            {
+                                "index": 1,
+                                "type": "figure_text",
+                                "text": "杭州市萧山区监察委员会",
+                                "vertex": {
+                                    "x1": 527,
+                                    "y1": 364,
+                                    "x2": 1065,
+                                    "y2": 364,
+                                    "x3": 1065,
+                                    "y3": 429,
+                                    "x4": 527,
+                                    "y4": 429
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 2,
+                                "type": "figure_text",
+                                "text": "委托鉴定书",
+                                "vertex": {
+                                    "x1": 545,
+                                    "y1": 443,
+                                    "x2": 1043,
+                                    "y2": 443,
+                                    "x3": 1043,
+                                    "y3": 529,
+                                    "x4": 545,
+                                    "y4": 529
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 3,
+                                "type": "figure_text",
+                                "text": "萧监委鉴(20xx)x号",
+                                "vertex": {
+                                    "x1": 847,
+                                    "y1": 604,
+                                    "x2": 1307,
+                                    "y2": 604,
+                                    "x3": 1307,
+                                    "y3": 663,
+                                    "x4": 847,
+                                    "y4": 663
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 4,
+                                "type": "figure_text",
+                                "text": "杭州市萧山区价格认证中心:",
+                                "vertex": {
+                                    "x1": 234,
+                                    "y1": 769,
+                                    "x2": 772,
+                                    "y2": 769,
+                                    "x3": 772,
+                                    "y3": 828,
+                                    "x4": 234,
+                                    "y4": 828
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 5,
+                                "type": "figure_text",
+                                "text": "本委办理的",
+                                "vertex": {
+                                    "x1": 289,
+                                    "y1": 855,
+                                    "x2": 518,
+                                    "y2": 855,
+                                    "x3": 518,
+                                    "y3": 909,
+                                    "x4": 289,
+                                    "y4": 909
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 6,
+                                "type": "figure_text",
+                                "text": "李xx违纪违法",
+                                "vertex": {
+                                    "x1": 566,
+                                    "y1": 855,
+                                    "x2": 861,
+                                    "y2": 855,
+                                    "x3": 861,
+                                    "y3": 907,
+                                    "x4": 566,
+                                    "y4": 907
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 7,
+                                "type": "figure_text",
+                                "text": "案件，需要",
+                                "vertex": {
+                                    "x1": 1153,
+                                    "y1": 855,
+                                    "x2": 1377,
+                                    "y2": 855,
+                                    "x3": 1377,
+                                    "y3": 912,
+                                    "x4": 1153,
+                                    "y4": 912
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 8,
+                                "type": "figure_text",
+                                "text": "对",
+                                "vertex": {
+                                    "x1": 214,
+                                    "y1": 940,
+                                    "x2": 272,
+                                    "y2": 940,
+                                    "x3": 272,
+                                    "y3": 992,
+                                    "x4": 214,
+                                    "y4": 992
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 9,
+                                "type": "figure_text",
+                                "text": "香烟的价格",
+                                "vertex": {
+                                    "x1": 345,
+                                    "y1": 938,
+                                    "x2": 569,
+                                    "y2": 938,
+                                    "x3": 569,
+                                    "y3": 992,
+                                    "x4": 345,
+                                    "y4": 992
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 10,
+                                "type": "figure_text",
+                                "text": "进行鉴定。根据",
+                                "vertex": {
+                                    "x1": 1064,
+                                    "y1": 938,
+                                    "x2": 1375,
+                                    "y2": 938,
+                                    "x3": 1375,
+                                    "y3": 994,
+                                    "x4": 1064,
+                                    "y4": 994
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 11,
+                                "type": "figure_text",
+                                "text": "《中华人民共和国监察法》第二十七条及相关规定，特委托你",
+                                "vertex": {
+                                    "x1": 234,
+                                    "y1": 1021,
+                                    "x2": 1377,
+                                    "y2": 1021,
+                                    "x3": 1377,
+                                    "y3": 1077,
+                                    "x4": 234,
+                                    "y4": 1077
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 12,
+                                "type": "figure_text",
+                                "text": "单位",
+                                "vertex": {
+                                    "x1": 214,
+                                    "y1": 1106,
+                                    "x2": 310,
+                                    "y2": 1106,
+                                    "x3": 310,
+                                    "y3": 1160,
+                                    "x4": 214,
+                                    "y4": 1160
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 13,
+                                "type": "figure_text",
+                                "text": "为本案鉴定人，请鉴定下列内容:",
+                                "vertex": {
+                                    "x1": 596,
+                                    "y1": 1104,
+                                    "x2": 1222,
+                                    "y2": 1104,
+                                    "x3": 1222,
+                                    "y3": 1162,
+                                    "x4": 596,
+                                    "y4": 1162
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 14,
+                                "type": "figure_text",
+                                "text": "2018年中秋节前，4条2字头软壳中华香烟的价值",
+                                "vertex": {
+                                    "x1": 279,
+                                    "y1": 1187,
+                                    "x2": 1256,
+                                    "y2": 1187,
+                                    "x3": 1256,
+                                    "y3": 1241,
+                                    "x4": 279,
+                                    "y4": 1241
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 15,
+                                "type": "figure_text",
+                                "text": "。请及时将书面的鉴定情况和",
+                                "vertex": {
+                                    "x1": 815,
+                                    "y1": 1272,
+                                    "x2": 1375,
+                                    "y2": 1272,
+                                    "x3": 1375,
+                                    "y3": 1326,
+                                    "x4": 815,
+                                    "y4": 1326
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 16,
+                                "type": "figure_text",
+                                "text": "意见送交我委。",
+                                "vertex": {
+                                    "x1": 214,
+                                    "y1": 1355,
+                                    "x2": 493,
+                                    "y2": 1355,
+                                    "x3": 493,
+                                    "y3": 1411,
+                                    "x4": 214,
+                                    "y4": 1411
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 17,
+                                "type": "figure_text",
+                                "text": "20xx年x月x日",
+                                "vertex": {
+                                    "x1": 942,
+                                    "y1": 1440,
+                                    "x2": 1256,
+                                    "y2": 1440,
+                                    "x3": 1256,
+                                    "y3": 1492,
+                                    "x4": 942,
+                                    "y4": 1492
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 18,
+                                "type": "figure_text",
+                                "text": "(委印)",
+                                "vertex": {
+                                    "x1": 1055,
+                                    "y1": 1525,
+                                    "x2": 1177,
+                                    "y2": 1525,
+                                    "x3": 1177,
+                                    "y3": 1575,
+                                    "x4": 1055,
+                                    "y4": 1575
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            }
+                        ]
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "第二联附卷",
+                        "vertex": {
+                            "x1": 723,
+                            "y1": 1931,
+                            "x2": 937,
+                            "y2": 1931,
+                            "x3": 937,
+                            "y3": 1980,
+                            "x4": 723,
+                            "y4": 1980
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "footer",
+                        "text": "$-$ 65-",
+                        "vertex": {
+                            "x1": 753,
+                            "y1": 2039,
+                            "x2": 832,
+                            "y2": 2039,
+                            "x3": 832,
+                            "y3": 2064,
+                            "x4": 753,
+                            "y4": 2064
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

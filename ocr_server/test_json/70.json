@@ -1,0 +1,95 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "paragraph",
+                        "text": "集体讨论记录",
+                        "vertex": {
+                            "x1": 610,
+                            "y1": 196,
+                            "x2": 971,
+                            "y2": 196,
+                            "x3": 971,
+                            "y3": 263,
+                            "x4": 610,
+                            "y4": 263
+                        },
+                        "level": 0,
+                        "group_type": "FigureOrTableCaption",
+                        "group_id": 0,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td>讨论议题</td>\n        <td colspan=\"3\">研究关于李XX同志有关问题线索的初步核实情况报</td>\n    </tr>\n    <tr>\n        <td>讨论时间</td>\n        <td>$20\\times X$ . X. X</td>\n        <td>讨论地点</td>\n        <td>区纪委XX会议室</td>\n    </tr>\n    <tr>\n        <td>主持人</td>\n        <td>俞XX</td>\n        <td>记录人</td>\n        <td>朱XX</td>\n    </tr>\n    <tr>\n        <td>与会成员</td>\n        <td colspan=\"3\">俞XX、蒋XX、朱XX、张XX</td>\n    </tr>\n    <tr>\n        <td>讨论记录</td>\n        <td colspan=\"3\">一、核查组介绍基本情况 由蒋XX代表核查组介绍初核情况(李XX身为中 共党员和公职人员,违反中央八项规定精神,违规收受 可能影响公正执行公务的礼品、消费卡,违反国家法律 法规规定,利用职务便利侵吞公共财物,其行为已违犯 党纪和政务法规,反映的违规建房行为经查证失实,建 议对李XX立案审查调查,请大家发表意见。附:初核 情况报告。) 二、讨论发言记录 朱XX:同意。 张XX:同意。 俞XX:同意核查组意见,对李XX立案审查调查, 报领导审批。 三、讨论形成的意见 经集体讨论,一致同意《关于杭州市萧山区XX局 党委委员、副局长李XX同志有关问题线索初步核实情 况报告》的处理意见,拟对李XX同志立案审查调查, 报领导审批。 20年月日</td>\n    </tr>\n    <tr>\n        <td>参加讨论 人员签名</td>\n        <td colspan=\"3\"></td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 166,
+                            "y1": 308,
+                            "x2": 1386,
+                            "y2": 308,
+                            "x3": 1386,
+                            "y3": 1966,
+                            "x4": 166,
+                            "y4": 1966
+                        },
+                        "level": 0,
+                        "group_type": "FigureOrTableCaption",
+                        "group_id": 0,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "footer",
+                        "text": "$-69-$",
+                        "vertex": {
+                            "x1": 753,
+                            "y1": 2039,
+                            "x2": 832,
+                            "y2": 2039,
+                            "x3": 832,
+                            "y3": 2064,
+                            "x4": 753,
+                            "y4": 2064
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

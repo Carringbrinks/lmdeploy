@@ -1,0 +1,362 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "figure",
+                        "text": "![](196,238,1412,1905)",
+                        "vertex": {
+                            "x1": 196,
+                            "y1": 238,
+                            "x2": 1412,
+                            "y2": 238,
+                            "x3": 1412,
+                            "y3": 1905,
+                            "x4": 196,
+                            "y4": 1905
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": [
+                            {
+                                "index": 0,
+                                "type": "figure_text",
+                                "text": "杭州市萧山区监察委员会",
+                                "vertex": {
+                                    "x1": 521,
+                                    "y1": 310,
+                                    "x2": 1084,
+                                    "y2": 310,
+                                    "x3": 1084,
+                                    "y3": 369,
+                                    "x4": 521,
+                                    "y4": 369
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 1,
+                                "type": "figure_text",
+                                "text": "立案决定书",
+                                "vertex": {
+                                    "x1": 553,
+                                    "y1": 409,
+                                    "x2": 1052,
+                                    "y2": 409,
+                                    "x3": 1052,
+                                    "y3": 491,
+                                    "x4": 553,
+                                    "y4": 491
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 2,
+                                "type": "figure_text",
+                                "text": "萧监立(20xx)x号",
+                                "vertex": {
+                                    "x1": 942,
+                                    "y1": 613,
+                                    "x2": 1383,
+                                    "y2": 613,
+                                    "x3": 1383,
+                                    "y3": 667,
+                                    "x4": 942,
+                                    "y4": 667
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 3,
+                                "type": "figure_text",
+                                "text": "根据《中华人民共和国监察法》第三十九条之规定，本",
+                                "vertex": {
+                                    "x1": 303,
+                                    "y1": 772,
+                                    "x2": 1388,
+                                    "y2": 772,
+                                    "x3": 1388,
+                                    "y3": 830,
+                                    "x4": 303,
+                                    "y4": 830
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 4,
+                                "type": "figure_text",
+                                "text": "委决定对",
+                                "vertex": {
+                                    "x1": 216,
+                                    "y1": 855,
+                                    "x2": 403,
+                                    "y2": 855,
+                                    "x3": 403,
+                                    "y3": 911,
+                                    "x4": 216,
+                                    "y4": 911
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 5,
+                                "type": "figure_text",
+                                "text": "李xx涉嫌违法",
+                                "vertex": {
+                                    "x1": 557,
+                                    "y1": 855,
+                                    "x2": 869,
+                                    "y2": 855,
+                                    "x3": 869,
+                                    "y3": 910,
+                                    "x4": 557,
+                                    "y4": 910
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 6,
+                                "type": "figure_text",
+                                "text": "一案立案调查。",
+                                "vertex": {
+                                    "x1": 217,
+                                    "y1": 938,
+                                    "x2": 508,
+                                    "y2": 938,
+                                    "x3": 508,
+                                    "y3": 997,
+                                    "x4": 217,
+                                    "y4": 997
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 7,
+                                "type": "figure_text",
+                                "text": "20年月日",
+                                "vertex": {
+                                    "x1": 900,
+                                    "y1": 1190,
+                                    "x2": 1264,
+                                    "y2": 1190,
+                                    "x3": 1264,
+                                    "y3": 1243,
+                                    "x4": 900,
+                                    "y4": 1243
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 8,
+                                "type": "figure_text",
+                                "text": "(委印)",
+                                "vertex": {
+                                    "x1": 1010,
+                                    "y1": 1274,
+                                    "x2": 1135,
+                                    "y2": 1274,
+                                    "x3": 1135,
+                                    "y3": 1327,
+                                    "x4": 1010,
+                                    "y4": 1327
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 9,
+                                "type": "figure_text",
+                                "text": "[说明:区管干部立案决定书的时间应为区委书记签批时间]",
+                                "vertex": {
+                                    "x1": 305,
+                                    "y1": 1368,
+                                    "x2": 1364,
+                                    "y2": 1368,
+                                    "x3": 1364,
+                                    "y3": 1420,
+                                    "x4": 305,
+                                    "y4": 1420
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 10,
+                                "type": "figure_text",
+                                "text": "立案决定已于20XX年X月",
+                                "vertex": {
+                                    "x1": 290,
+                                    "y1": 1606,
+                                    "x2": 827,
+                                    "y2": 1606,
+                                    "x3": 827,
+                                    "y3": 1658,
+                                    "x4": 290,
+                                    "y4": 1658
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 11,
+                                "type": "figure_text",
+                                "text": "X日向我宣布。",
+                                "vertex": {
+                                    "x1": 828,
+                                    "y1": 1610,
+                                    "x2": 1077,
+                                    "y2": 1610,
+                                    "x3": 1077,
+                                    "y3": 1658,
+                                    "x4": 828,
+                                    "y4": 1658
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 12,
+                                "type": "figure_text",
+                                "text": "李xx",
+                                "vertex": {
+                                    "x1": 989,
+                                    "y1": 1691,
+                                    "x2": 1113,
+                                    "y2": 1691,
+                                    "x3": 1113,
+                                    "y3": 1739,
+                                    "x4": 989,
+                                    "y4": 1739
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            },
+                            {
+                                "index": 13,
+                                "type": "figure_text",
+                                "text": "被调查人:",
+                                "vertex": {
+                                    "x1": 738,
+                                    "y1": 1693,
+                                    "x2": 912,
+                                    "y2": 1693,
+                                    "x3": 912,
+                                    "y3": 1741,
+                                    "x4": 738,
+                                    "y4": 1741
+                                },
+                                "level": 1,
+                                "group_type": "",
+                                "group_id": -1,
+                                "elements": []
+                            }
+                        ]
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "第二联附卷",
+                        "vertex": {
+                            "x1": 687,
+                            "y1": 1935,
+                            "x2": 901,
+                            "y2": 1935,
+                            "x3": 901,
+                            "y3": 1983,
+                            "x4": 687,
+                            "y4": 1983
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "footer",
+                        "text": "$-83-$",
+                        "vertex": {
+                            "x1": 753,
+                            "y1": 2039,
+                            "x2": 832,
+                            "y2": 2039,
+                            "x3": 832,
+                            "y3": 2064,
+                            "x4": 753,
+                            "y4": 2064
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

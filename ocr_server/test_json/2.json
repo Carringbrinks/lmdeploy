@@ -1,0 +1,152 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "paragraph",
+                        "text": "内部资料",
+                        "vertex": {
+                            "x1": 236,
+                            "y1": 210,
+                            "x2": 399,
+                            "y2": 210,
+                            "x3": 399,
+                            "y3": 255,
+                            "x4": 236,
+                            "y4": 255
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "注意保管",
+                        "vertex": {
+                            "x1": 236,
+                            "y1": 292,
+                            "x2": 399,
+                            "y2": 292,
+                            "x3": 399,
+                            "y3": 338,
+                            "x4": 236,
+                            "y4": 338
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "text",
+                        "text": "萧山区纪委区监委本级查办违纪违法案件模拟案卷(非移送司法类)",
+                        "vertex": {
+                            "x1": 261,
+                            "y1": 491,
+                            "x2": 1321,
+                            "y2": 491,
+                            "x3": 1321,
+                            "y3": 727,
+                            "x4": 261,
+                            "y4": 727
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "萧山区纪委区监委案件审理室汇编",
+                        "vertex": {
+                            "x1": 488,
+                            "y1": 1749,
+                            "x2": 1094,
+                            "y2": 1749,
+                            "x3": 1094,
+                            "y3": 1796,
+                            "x4": 488,
+                            "y4": 1796
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "paragraph",
+                        "text": "2022年2月",
+                        "vertex": {
+                            "x1": 692,
+                            "y1": 1833,
+                            "x2": 905,
+                            "y2": 1833,
+                            "x3": 905,
+                            "y3": 1877,
+                            "x4": 692,
+                            "y4": 1877
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 5,
+                        "type": "footer",
+                        "text": "",
+                        "vertex": {
+                            "x1": 757,
+                            "y1": 2083,
+                            "x2": 825,
+                            "y2": 2083,
+                            "x3": 825,
+                            "y3": 2109,
+                            "x4": 757,
+                            "y4": 2109
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}

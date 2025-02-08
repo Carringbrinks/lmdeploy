@@ -1,0 +1,133 @@
+{
+    "error_code": 0,
+    "error_message": "OK",
+    "session_id": "12345",
+    "debug_info": {
+        "server_name": "smartocr",
+        "server_ip": [
+            "172.31.35.16"
+        ],
+        "version": "[2024-03-31 23:57:48]1.4.0.85",
+        "sdk_version": "document_reconstruction_v1.4.0_2024.3.31",
+        "recognize_time": 41835,
+        "service_total_time": 41836
+    },
+    "recognize_list": [
+        {
+            "angle": 0,
+            "data_content": {
+                "data_list": [
+                    {
+                        "data": "aGVsbG8=",
+                        "name": "markdown"
+                    }
+                ]
+            },
+            "element_content": {
+                "elements": [
+                    {
+                        "index": 0,
+                        "type": "text",
+                        "text": "中共萧山区纪委请示事项委内审签单",
+                        "vertex": {
+                            "x1": 322,
+                            "y1": 201,
+                            "x2": 1265,
+                            "y2": 201,
+                            "x3": 1265,
+                            "y3": 266,
+                            "x4": 322,
+                            "y4": 266
+                        },
+                        "level": 0,
+                        "group_type": "FigureOrTableCaption",
+                        "group_id": 0,
+                        "elements": []
+                    },
+                    {
+                        "index": 1,
+                        "type": "paragraph",
+                        "text": "密级:非密编号:第x纪检监察室(20xx)第xx号缓急:平件",
+                        "vertex": {
+                            "x1": 163,
+                            "y1": 313,
+                            "x2": 1248,
+                            "y2": 313,
+                            "x3": 1248,
+                            "y3": 361,
+                            "x4": 163,
+                            "y4": 361
+                        },
+                        "level": 0,
+                        "group_type": "FigureOrTableCaption",
+                        "group_id": 0,
+                        "elements": []
+                    },
+                    {
+                        "index": 2,
+                        "type": "table",
+                        "text": "<table>\n    <tr>\n        <td>标题</td>\n        <td colspan=\"2\">关于杭州市萧山区xx局党委委员、副局长李xx相关问题线索成立核查 组、进行初步核实的处置意见及初步核实工作方案</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">区委常委、纪委书记、监委主任意见: 同意。 (签名) $20xx-xx-xx$</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管领导意见:</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">拟同意,请领导审批。</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管副书记(签名) 20xx-xx-xx</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">拟同意,请领导审批。</td>\n    </tr>\n    <tr>\n        <td colspan=\"3\">分管常委(签名) 20xx-xx-xx</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">主办部门意见:</td>\n        <td>相关部门意</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">拟同意,请领导审批。</td>\n        <td>见:</td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">室主任(签名) 20xx-xx-xx</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">呈批事由:</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">拟初步核实,成立李xx问题线索核查组,组长俞xx,主</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">办人蒋xx、协办人朱xx、张xx,拟定初步核实工作方案,请</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">领导审批。</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">附:《集体讨论记录》、《关于杭州市萧山区xx局党委委员、</td>\n        <td></td>\n    </tr>\n    <tr>\n        <td colspan=\"2\">副局长李xx同志有关问题线索初步核实工作方案》</td>\n        <td></td>\n    </tr>\n</table>\n",
+                        "vertex": {
+                            "x1": 114,
+                            "y1": 376,
+                            "x2": 1400,
+                            "y2": 376,
+                            "x3": 1400,
+                            "y3": 1985,
+                            "x4": 114,
+                            "y4": 1985
+                        },
+                        "level": 0,
+                        "group_type": "FigureOrTableCaption",
+                        "group_id": 0,
+                        "elements": []
+                    },
+                    {
+                        "index": 3,
+                        "type": "paragraph",
+                        "text": "主办部门:第x纪检监察室经办人:xxx核稿人:xxx",
+                        "vertex": {
+                            "x1": 164,
+                            "y1": 2001,
+                            "x2": 1120,
+                            "y2": 2001,
+                            "x3": 1120,
+                            "y3": 2048,
+                            "x4": 164,
+                            "y4": 2048
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    },
+                    {
+                        "index": 4,
+                        "type": "footer",
+                        "text": "$-21-$",
+                        "vertex": {
+                            "x1": 750,
+                            "y1": 2085,
+                            "x2": 830,
+                            "y2": 2085,
+                            "x3": 830,
+                            "y3": 2107,
+                            "x4": 750,
+                            "y4": 2107
+                        },
+                        "level": 0,
+                        "group_type": "",
+                        "group_id": -1,
+                        "elements": []
+                    }
+                ]
+            },
+            "height": 1928,
+            "width": 1298,
+            "org_height": 1928,
+            "org_width": 1298,
+            "page": 0
+        }
+    ],
+    "timecost": 42.37663960456848
+}
