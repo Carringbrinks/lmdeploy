@@ -14,4 +14,8 @@ cmake ${builder} .. \
     -DBUILD_PY_FFI=ON \
     -DBUILD_MULTI_GPU=ON \
     -DCMAKE_CUDA_FLAGS="-lineinfo" \
-    -DUSE_NVTX=ON
+    -DUSE_NVTX=ON \
+    # -DNCCL_INCLUDE_DIRS=/home/cbsu/CUDA/nccl_2.25.1-1+cuda12.4_x86_64/include \
+    # -DNCCL_LIBRARIES=/home/cbsu/CUDA/nccl_2.25.1-1+cuda12.4_x86_64/lib/libnccl.so \
+
+
