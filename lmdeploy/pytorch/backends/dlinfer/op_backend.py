@@ -37,6 +37,12 @@ class DlinferOpsBackend(DefaultOpsBackend):
         elif layer_type == OpType.RMSNorm:
             from .norm import DlinferRMSNormBuilder
             return DlinferRMSNormBuilder
+        elif layer_type == OpType.LinearW8A8:
+            from .qmodules import DlinferLinearW8A8Builder
+            return DlinferLinearW8A8Builder
+        elif layer_type == OpType.RMSNormW8A8:
+            from .qmodules import DlinferRMSNormW8A8Builder
+            return DlinferRMSNormW8A8Builder
         elif layer_type == OpType.SoftmaxTopK:
             from .moe import DlinferSoftmaxTopKBuilder
             return DlinferSoftmaxTopKBuilder
@@ -53,8 +59,7 @@ class DlinferOpsBackend(DefaultOpsBackend):
             from .rotary_embedding import DlinferRotaryEmbeddingBuilder
             return DlinferRotaryEmbeddingBuilder
         else:
-            logger.debug(
-                f'Op {layer_type} fallback to default implementation.')
+            logger.debug(f'Op {layer_type} fallback to default implementation.')
             return super().get_layer_impl_builder(layer_type)
 
     @staticmethod

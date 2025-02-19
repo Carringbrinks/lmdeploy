@@ -129,10 +129,21 @@ class GenerationConfig:
         self.stop_token_ids = list(set(stop_token_ids)) or None
         self.bad_token_ids = list(set(bad_token_ids)) or None
 
+    def update_from_hf_gen_cfg(self, generation_config, tokenizer_eos_token_id):
+        """update the stop_token_ids."""
+        stop_token_ids = self.stop_token_ids or []
+        if tokenizer_eos_token_id is not None:
+            stop_token_ids.append(tokenizer_eos_token_id)
+        eos_token_id = generation_config.get('eos_token_id')
+        if eos_token_id is not None:
+            eos_token_id = {eos_token_id} if isinstance(eos_token_id, int) else set(eos_token_id)
+            if stop_token_ids:
+                eos_token_id.update(stop_token_ids)
+            self.stop_token_ids = list(eos_token_id)
+
     def __post_init__(self):
         """Check input validation."""
-        assert type(
-            self.n) == int and self.n > 0, 'n is not a positive integer'
+        assert type(self.n) == int and self.n > 0, 'n is not a positive integer'
         assert self.top_p >= 0 and self.top_p <= 1  # [0, 1]
         assert self.top_k >= 0, 'top_k can not be a negative integer'
         assert self.temperature >= 0 and self.temperature <= 2  # [0,2]
@@ -150,11 +161,10 @@ class TurbomindEngineConfig:
             The `auto` option will use FP16 precision for FP32 and FP16
             models, and BF16 precision for BF16 models.
         model_format (str): the layout of the deployed model. It can be one
-            of the following values [hf, meta_llama, awq, gptq],`hf` meaning
-            huggingface model(.bin, .safetensors), `meta_llama` being
-            meta llama's format(.pth), `awq` and `gptq` meaning the quantized
-            model by AWQ and GPTQ, respectively. If it is not specified,
-            i.e. None, it will be extracted from the input model
+            of the following values [hf, awq, gptq],`hf` meaning
+            huggingface model(.bin, .safetensors), `awq` and `gptq` meaning
+            the quantized model by AWQ and GPTQ, respectively. If it is not
+            specified, i.e. None, it will be extracted from the input model
         tp (int): the number of GPU cards used in tensor parallelism,
             default to 1
         session_len (int): the max session length of a sequence, default to
@@ -299,18 +309,13 @@ class PytorchEngineConfig:
             'invalid max_prefill_token_num'
         assert self.num_gpu_blocks >= 0, 'invalid num_gpu_blocks'
         assert self.quant_policy in (0, 4, 8), 'invalid quant_policy'
-        assert self.device_type in [
-            'cuda', 'ascend', 'maca', 'camb'
-        ], (f'invalid device_type: {self.device_type}')
-        if self.quant_policy > 0 and self.device_type not in [
-                'cuda', 'ascend'
-        ]:
+        assert self.device_type in ['cuda', 'ascend', 'maca', 'camb'], (f'invalid device_type: {self.device_type}')
+        if self.quant_policy > 0 and self.device_type not in ['cuda', 'ascend']:
             assert False, \
                    'kv cache quantization only works for CUDA and ASCEND.'
         if self.device_type == 'camb' and self.block_size != 16:
             self.block_size = 16
-            logger.warning(
-                'Currently, camb device requires block size to be 16, \
+            logger.warning('Currently, camb device requires block size to be 16, \
                     setting block size to 16')
 
 

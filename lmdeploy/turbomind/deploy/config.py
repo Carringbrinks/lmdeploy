@@ -47,8 +47,6 @@ class ModelConfig:
     inter_size: List[int] = None
     norm_eps: float = None
     attn_bias: int = 0
-    start_id: int = None
-    end_id: int = None
     size_per_head: int = 128
     group_size: int = 64
     weight_type: str = None
@@ -137,16 +135,11 @@ class TurbomindModelConfig:
     @classmethod
     def from_dict(cls, config: dict = {}):
         """construct TurbomindModelConfig instance from config in a dict."""
-        _cfg = {
-            field.name: config.get(field.name, {})
-            for field in fields(TurbomindModelConfig)
-        }
+        _cfg = {field.name: config.get(field.name, {}) for field in fields(TurbomindModelConfig)}
 
-        return TurbomindModelConfig(
-            model_config=config_from_dict(ModelConfig, _cfg['model_config']),
-            attention_config=config_from_dict(AttentionConfig,
-                                              _cfg['attention_config']),
-            lora_config=config_from_dict(LoraConfig, _cfg['lora_config']))
+        return TurbomindModelConfig(model_config=config_from_dict(ModelConfig, _cfg['model_config']),
+                                    attention_config=config_from_dict(AttentionConfig, _cfg['attention_config']),
+                                    lora_config=config_from_dict(LoraConfig, _cfg['lora_config']))
 
     def to_dict(self):
         """export to a dict."""
